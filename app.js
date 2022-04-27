@@ -1,5 +1,5 @@
 const { Telegraf, Markup } = require('telegraf');
-const bot = new Telegraf('5161885332:AAHh9NauPjIQg8bdQEqiIjsfGyD82A3Wsls')
+const bot = new Telegraf(TOKEN)
 const youtubeService = require('./youtube-service')
 const { extractVideoId } = require('./utils');
 const { WILDCARD_REGEX } = require('./constants');
